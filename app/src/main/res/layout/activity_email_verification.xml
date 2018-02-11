@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naveen.appy.EmailVerification">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="118dp"
+        android:fontFamily="@font/nunito_semibold"
+        android:text="@string/your_email_is_not_yet_verified"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/email_Resend_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_background"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="15dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/resend_email_verification"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/email_Reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_Resend_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/button_background_color_primary"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="15dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/try_with_a_new_email"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/email_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_Reg_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/button_background_color_primary"
+        android:fontFamily="@font/nunito_semibold"
+        android:padding="15dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/Log_Out"
+        android:textAllCaps="false"
+        android:textColor="@color/White"
+        android:textSize="18sp" />
+</RelativeLayout>

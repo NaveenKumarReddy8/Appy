@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Appy</string>
+    <string name="need_a_new_account">NEED A NEW ACCOUNT?</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Log_Out">Log Out</string>
+    <string name="create_account">Create Account</string>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="welcome_to_appy">Welcome to Appy</string>
+    <string name="already_have_a_account">Already Have a Account</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="login">Login</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_requests_page">Welcome to Requests Page</string>
+    <string name="friends_page">Friends Page</string>
+    <string name="chat_page">Chat Page</string>
+    <string name="your_email_is_not_yet_verified">Your Email is not Yet Verified!</string>
+    <string name="try_with_a_new_email">Try with a new Email</string>
+    <string name="resend_email_verification">Resend Email Verification</string>
+</resources>
